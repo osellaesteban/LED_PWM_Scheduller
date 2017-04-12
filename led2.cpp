@@ -45,9 +45,17 @@ int main(int argc, char* argv[])
 		std::cout << "PWM value "<< corrpos <<": "<< pwmvals[corrpos]<< endl;
 	}
 	std::cout << "A ver que carga ..... "<< endl;
+	std::cout << "PWM value "<< 0 <<": "<< pwmvals[0]<< endl;
+	std::cout << "PWM value "<< 1 <<": "<< pwmvals[7]<< endl;
+	std::cout << "PWM value "<< 2 <<": "<< pwmvals[1]<< endl;
+	std::cout << "PWM value "<< 3 <<": "<< pwmvals[4]<< endl;
+	std::cout << "PWM value "<< 4 <<": "<< pwmvals[5]<< endl;
+	std::cout << "PWM value "<< 5 <<": "<< pwmvals[6]<< endl;
+	std::cout << "PWM value "<< 6 <<": "<< pwmvals[3]<< endl;
+	std::cout << "PWM value "<< 7 <<": "<< pwmvals[2]<< endl;
 	for (unsigned int k = 0;k<8;k++)
 	{
-		std::cout << "PWM value "<< k <<": "<< pwmvals[k]<< endl;
+		
 	}
 	return 0;
 }
