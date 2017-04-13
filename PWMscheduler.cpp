@@ -1,3 +1,8 @@
+/*
+Esta version reacomoda los valores pasados como parametros para que queden 
+ordenados segun el orden de las salidas de la raspberry
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <wiringPi.h>
